@@ -19,38 +19,39 @@
     </ul>
   </nav>
 
-  <section class="contact">
-    <h2>Contact Me</h2>
-    <p>Feel free to reach out for collaborations or just a friendly hello!</p>
+  <section id="contact" class="contact">
+  <h2>Contact Me</h2>
+  <div class="contact-container">
+    
+    <!-- FORM -->
+    <div class="contact-box">
+      <form>
+        <label for="name">Your Name</label>
+        <input type="text" id="name" placeholder="Enter your name" required>
 
-    <div class="contact-container">
-      <form class="contact-form" action="https://formspree.io/f/mzzbvzjq" method="POST">
-        <div class="form-group">
-          <label for="name">Your Name</label>
-          <input type="text" id="name" name="name" placeholder="Enter your name" required>
-        </div>
+        <label for="email">Your Email</label>
+        <input type="email" id="email" placeholder="Enter your email" required>
 
-        <div class="form-group">
-          <label for="email">Your Email</label>
-          <input type="email" id="email" name="_replyto" placeholder="Enter your email" required>
-        </div>
+        <label for="message">Message</label>
+        <textarea id="message" placeholder="Write your message..." required></textarea>
 
-        <div class="form-group">
-          <label for="message">Message</label>
-          <textarea id="message" name="message" rows="5" placeholder="Write your message..." required></textarea>
-        </div>
-
-        <button type="submit" class="btn primary">Send Message</button>
+        <button type="submit">Send Message</button>
       </form>
+    </div>
 
+    <!-- INFO -->
+    <div class="contact-box">
       <div class="contact-info">
         <h3>Get in touch</h3>
         <p><strong>Email:</strong> diazananda88@gmail.com</p>
-        <p><strong>LinkedIn:</strong> <a href="www.linkedin.com/in/diazanandapriyanto" target="_blank">diazanandapriyanto</a></p>
-        <p><strong>Instagram:</strong> <a href="https://instagram.com/diaznannz" target="_blank">@diaznannz</a></p>
+        <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/diazandapriyanto" target="_blank">linkedin.com/in/diazandapriyanto</a></p>
+        <p><strong>Instagram:</strong> <a href="https://www.instagram.com/diazannz" target="_blank">@diazannz</a></p>
       </div>
     </div>
-  </section>
+
+  </div>
+</section>
+
 
   <footer>
     <p>© 2025 Diaz Ananda Priyanto. All rights reserved.</p>
@@ -59,4 +60,3 @@
   <script src="js/script.js"></script>
 </body>
 </html>
-
